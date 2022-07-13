@@ -1,0 +1,131 @@
+/* Requirements: 
+- From Scratch
+- Make sure to use:
+    - classes
+    - flexbox
+    - background image
+    - palette
+    - plan in figma
+
+*/
+
+/* Stretch Goals
+ - Make it about your own hometown
+ - Use a different color palette
+ - Add a google font
+ - Find a way to use :hover
+ - Add a whole new section
+
+*/
+
+/* Share work
+- Deploy
+*/
+body{
+    margin: 0;
+    font-family: "Happy Monkey", Arial, Helvetica, sans-serif;
+}
+
+#herobackground {
+    background-image: url("images/yonkers.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero-title{
+    font-size: 43px;
+    background-color: #814732;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.hero-desc{
+    font-size: 20px;
+    background-color: #BD6F55;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.activities {
+    background-color: #83B0DA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+}
+
+.img-cont{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+
+}
+
+.act-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+}
+
+.acts {
+    width: 240px;
+    border: 1px solid #BD6F55;
+    padding: 40px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+    background-color: hsla(212,41%,34%, 0.2);
+    box-shadow: 5px 10px ;
+}
+
+.guide {
+    background-color: #547278;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guide-card{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #BD6F55;
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 25px;
+    
+}
+
+.guide-img{
+    width: 260px;
+    height: 280px;
+    border-radius: 25px;
+    /* padding-right: 20px; */
+}
+
+.text-cont{
+    text-align: center;
+    padding: 30px 0 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.guide-text{
+    font-style: italic;
+}
